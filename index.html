@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hi There!</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      background-color: antiquewhite;
+      height: 600px;
+    }
+    
+    .main {
+      display: flex;
+      justify-content: center;
+      height: 500px;
+      width: 100%;
+      flex-direction: column;
+      margin-top: 50px;
+    }
+
+    .meta-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+    }
+
+    .meta-txt {
+      font-family: Roboto ;
+      font-size: 22px;
+      font-weight: bold;
+      width: 90%;
+      margin-top: 40px;
+      margin-left: 25px;
+      line-height: 33px;
+    }
+
+    .button-div {
+      display: flex;
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .button-no-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;   
+      height: 20%;
+      
+
+    }
+
+      .button-yes-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      height: 20%;
+
+    }
+
+    .button-yes {
+      background-color: rgb(79, 224, 79);
+      padding: 8px 15px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-right: 20px;
+    }
+
+    .button-yes:hover {
+      cursor: pointer;
+    }
+
+    .button-yes:active {
+      opacity: 0.4;
+    }
+
+    .button-no {
+      background-color: rgb(255, 90, 78);
+      padding: 8px 17px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-left: 20px;
+    }   
+
+    .button-no:hover {
+      cursor: pointer;
+    }
+
+    .button-no:active {
+      opacity: 0.4;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="meta-div">
+      <p class="meta-txt">Assalamualaikum,<br> I am ROHAN. <br> <br>Do you want to see my "SSC Exam" Result?</p>
+    </div>
+    <div class="button-div">
+      <div class="button-no-div">
+        <a href="page4.html">
+           <button class="button-no">No</button>
+        </a>
+      </div>
+      <div class="button-yes-div">
+        <a href="page2.html">
+          <button class="button-yes">Yes</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
